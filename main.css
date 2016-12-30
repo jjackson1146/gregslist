@@ -107,3 +107,19 @@ input {
   border-left: 1px solid #DDDDDD;
   border-right: 1px solid #DDDDDD;
 }
+
+.listings {
+  font-size: 16px;
+  color: gray;
+}
+
+/* I want to make different hover effects here. How? */
+
+.blue {
+  font-size: 20px;
+  color: blue;
+  font-weight: 800;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
