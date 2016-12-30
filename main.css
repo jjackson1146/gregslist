@@ -1,7 +1,37 @@
 .nav {
-  position: fixed;
-  height: 75px;
+  position: relative;
+  height: 50px;
   width: 100%;
-  background-color: gray;
-  
+  background-color: lightgray;
+
+}
+
+h1 {
+  font-family: sans-serif;
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+}
+
+.navlink {
+  position: absolute;
+  font-size: 18px;
+  padding: 0 6px;
+  text-align: right;
+
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+  text-decoration: none;
 }
